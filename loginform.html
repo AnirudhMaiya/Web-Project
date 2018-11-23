@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 2px solid #f1f1f1;
+}
+
+input[type=text]{
+	position:absolute;
+	width: 16%;
+	bottom:38.6%;
+	right:33.7%;
+    padding: 21px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=password] {
+	position:absolute;
+	width: 16%;
+	right:17.7%;
+	bottom:38.6%;
+    padding: 21px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+@font-face { font-family: Poppins-Regular; src: url('Poppins-Regular.otf'); } 
+    .poppins { font-family: Poppins-Regular; font-size: 4.2em; }
+button {
+    background-color: #00ad5f;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width: 32%;
+border-radius: 3px;
+}
+
+button:hover {
+	background:#333333;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+@font-face { font-family: Montserrat-Bold; src: url('Montserrat-Bold.otf'); } 
+    .montserrat { font-family: Montserrat-Bold; font-size: 4.2em; }
+a:focus {
+
+    outline: none !important;
+}
+</style>
+<body bgcolor = "#e6e9ef">
+<img style = "position:absolute ;top:15px;left :220px;width:450px;height :700px;" SRC = "rex1.jpg">
+<img style = "position:absolute ;top:15px;right :227.9px;width:450px;height :700px;" SRC = "white.png">
+<div style="font-family: Poppins-Regular;position:absolute ;top:270px;left :800px;font-size:20px;letter-spacing: 2px;width: 100%;display: block;"><font color = "#555555">ACCOUNT LOGIN</font></div>
+<form action="C:\xampp\htdocs\oo.php" method = "POST">
+	<input type="text" placeholder="User Name" name="uname" style="font-family: Poppins-Regular;color:#666666;"  required>
+	<input type="password" placeholder="Password" name="psw" style="font-family: Poppins-Regular;color:#666666;"required>
+	<button type="submit" style = "font-size:20px;font-family:Montserrat-Bold ;position:absolute;left:896px; top:420px;transform: translate(-50%, -50%);">Sign In</button>
+</form>
+<div style = "font-family: Poppins-Regular;position:absolute ;top:490px;left :790px;color:#999999;font-size:13px;">Forgot</div>
+<div style = "font-family: Poppins-Regular;position:absolute ;top:490px;left :835px;font-size:13px;"><a href = "#" style ="color:#00ad5f;" >User name/password?</a></div>
+<div style = "font-family: Poppins-Regular;position:absolute ;top:600px;left :865px;font-size:15px;"><a href = "register.php" style ="color:#00ad5f;" >SIGN UP</a></div>

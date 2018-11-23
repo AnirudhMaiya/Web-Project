@@ -1,0 +1,29 @@
+body{
+  background-color:white;
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+img{
+  width :220px;
+  height:220px;
+  margin:10px;
+  transition:0.5s ease;
+  border-bottom : black;
+}
+img:hover{
+  transform :scale(1.2);/*zooms the picture 120%*/
+}
+h1 {
+    background-color: #000000;
+    text-align:center;
+    color:white;
+    font-family: Century Gothic;
+}h4 {
+    background-color: #FFD700;
+    text-align:center;
+    color:white;
+    font-family: Segoe Print;
+}
